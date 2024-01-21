@@ -63,9 +63,39 @@ namespace Raketa.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bonus {
+            get {
+                object obj = ResourceManager.GetObject("bonus", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap brod {
             get {
                 object obj = ResourceManager.GetObject("brod", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap brod2 {
+            get {
+                object obj = ResourceManager.GetObject("brod2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap komet {
+            get {
+                object obj = ResourceManager.GetObject("komet", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
