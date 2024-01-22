@@ -63,7 +63,7 @@ namespace Raketa
         {
             SoundPlayer musicPlayer = new SoundPlayer();
             musicPlayer.SoundLocation = filepath;
-            musicPlayer.Play();
+            musicPlayer.PlayLooping();
         }
 
         private void StopMusic()
@@ -192,7 +192,6 @@ namespace Raketa
 
         private void NastavnePostavke()
         {
-            progressBar1.Value = 1000;
             labelaPauza.Visible = false;
             krajIgre = false;
             labelaRestartPoruka.Visible = false;
